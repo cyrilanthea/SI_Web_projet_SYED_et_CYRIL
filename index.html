@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <title>Monuments d'Europe</title>
+</head>
+<body>
+<header>
+    <h1>Monuments d'Europe</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Monuments</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="main">
+    <p class="description">Bienvenue sur notre site des monuments historiques en Europe. Vous pouvez utiliser le champ de filtrage ci-dessous pour rechercher des monuments par pays. Entrez le nom du pays dans le champ et cliquez sur "Appliquer le filtre" pour voir les monuments correspondants sur la carte.</p>
+    <div class="description-images">
+        <img src="images/monument1.jpg" alt="Monument 1">
+        <img src="images/monument2.jpg" alt="Monument 2">
+        <img src="images/monument3.jpeg" alt="Monument 3">
+    </div>
+
+    <div id="content">
+        <h2>Filtrer par pays</h2>
+        <div id="filter-field">
+            <input type="text" id="countryInput" placeholder="Entrez le nom du pays">
+            <button id="applyFilter">Appliquer le filtre</button>
+        </div>
+    </div>
+    <div id="map" style="width: 100%; height: 500px;"></div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
