@@ -17,7 +17,7 @@ h1 {
     text-align: center;
 }
 
-nav {
+/*nav {
     display: flex;
     justify-content: center;
 }
@@ -39,7 +39,7 @@ a {
     font-weight: bold;
     font-size: 18px;
 }
-
+*/
 #main {
     flex: 1;
     display: flex;
